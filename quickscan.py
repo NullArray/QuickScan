@@ -47,7 +47,7 @@ parser.add_argument("-s", "--scan", help="specify the host(IP) you wish to scan"
 parser.add_argument("-v", "--verbose", action="store_true", help="toggle verbosity")
 args = parser.parse_args()
 
-host = args.target
+host = args.scan
 
 if args.resolve:	
 	try:
