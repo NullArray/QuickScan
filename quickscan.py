@@ -61,7 +61,7 @@ if args.resolve:
 			print "[" + t.green("+") + "]Consider typing the domain without the protocol, I.E. 'google.com, instead of http://google.com"
 			sys.exit(0)
 		else:
-			print "[" + t.red("!") + "]Critical. An error was raised while attempting to resolve domain."
+			print "[" + t.red("!") + "]Critical. An error was raised while attempting WHOIS lookup."
 			sys.exit(0)
 	
 	# Format for logging
