@@ -57,7 +57,7 @@ if args.resolve:
 	except socket.gaierror as e:
 		if args.verbose == True:
 			print "[" + t.red("!") + "]Critical. A GAIerror was raised with the following error message."
-			print e + "\n"
+			print e
 			print "[" + t.green("+") + "]Consider typing the domain without the protocol, I.E. 'google.com, instead of http://google.com"
 			sys.exit(0)
 		else:
