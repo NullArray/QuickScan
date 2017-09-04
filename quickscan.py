@@ -105,7 +105,7 @@ if args.whois:
 # Scanner code adapted for this program from the original implementation
 # by TheZ3ro. Reference https://gist.github.com/TheZ3ro/7255052 for details.
 
-if args.target:
+if args.scan:
 	print "\n[" + t.green("+") + "]Please enter a port range.\n"
 	start_port = input("Start port:  ")
 	end_port = input("End port:  ")   
