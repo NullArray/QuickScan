@@ -33,7 +33,7 @@ QuickScan depends on the following Python2.7 modules.
 blessings
 ipwhois
 ```
-Should you find you do not have these installed you can use Python's build in package manager to install them like so.
+Should you find you do not have these installed you can use Python's built in package manager to install them like so.
 
 ```
 pip install blessings
