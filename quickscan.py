@@ -28,7 +28,9 @@ if not len(sys.argv[1:]):
 
 
 To start using this script please provide a command 
-line argument and it's corresponding value, where. 
+line argument and it's corresponding value, where
+applicable. 
+
 To display all options available use -h or --help.
 
 Example:
