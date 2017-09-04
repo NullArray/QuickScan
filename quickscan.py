@@ -4,7 +4,6 @@ import sys
 import json
 import time
 import socket
-import whois
 import argparse
 
 from ipwhois import IPWhois
