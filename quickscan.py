@@ -34,9 +34,9 @@ applicable.
 To display all options available use -h or --help.
 
 Example:
-knocker.py -h
-knocker.py --resolve google.com 
-knocker.py --scan 192.168.55.88 -v               \n	""")
+quickscan.py -h
+quickscan.py --resolve google.com 
+quickscan.py --scan 192.168.55.88 -v               \n	""")
 	sys.exit(0)
 
 # Handle command line arguments
